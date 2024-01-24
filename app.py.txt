@@ -1,0 +1,9 @@
+#Python program for VPC list
+import boto3
+import json
+client = boto3.client('ec2',
+aws_access_key_id="a1b2c3d4e5f6"
+aws_secret_access_key="12sndkueuhga 4to ;o4a; gehij"
+vpcs=client.describe_vpcs()
+print(vpcs)
+print("This is to get all the vpc details"
